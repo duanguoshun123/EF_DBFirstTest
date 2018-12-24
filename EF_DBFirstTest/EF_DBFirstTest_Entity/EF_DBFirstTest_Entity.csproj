@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31A37A0B-0734-4484-B1FF-2CF50143C5F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EF_DBFirstTest_Entity</RootNamespace>
+    <AssemblyName>EF_DBFirstTest_Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalcUnpledgedContracts_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FnListTimeZone_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FnSplitStrToInt_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FnSplitStrToLong_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FnSplitStr_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineTime.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineTimeFlag.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OperationSystemModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SPGenerateInvoiceReport_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpotMortgageProcessingFlag.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpotTradeProcessingFlag.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncContractDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SynchronizationErrorLog.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncSpotInventory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncSpotMortgage.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncSpotTrade.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncTradeContractInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncTradeDeliveryBatch.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncTradePayment.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SyncTradePriced.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewExchangeRate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUnitConversion.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUnitConversionUnconfigured.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewWFPledgeInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewWFUnPledgeInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_Broker.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_CargoUnit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_CargoUnitConversion.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_CommodityCategory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_CommodityType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_CommodityTypeQuantityUnit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_Corporation.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_Currency.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_Exchange.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_ExchangeType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_Instrument.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_InstrumentCategory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_InstrumentContractFormat.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_MarketCalendar.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_ProfitCenter.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_TimeZone.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_TradeAccount.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_TradeAccountType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Fe_User.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Lm_Instrument.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Lm_MarketCalendar.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Lm_TradeAccount.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Accounting_Lm_User.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAccountEntity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAccountingDataLog.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAccountingDataLogDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAccountingFee.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAccountingTask.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFActualApprovalStep.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFActualApprovalStepUser.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFActualApprovalWF.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFActualApprover.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFActualStepCondition.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFActuaStepAction.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAdditionalConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAggregateBill.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAggregateBillDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAmountRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAmountRecordDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAmountRecordSubDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalAttachment.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalCancellationForm.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalWorkflowLog.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalWorkflowStepTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalWorkflowTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApprovalWorkflowTemplateRole.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFApproverTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAuthorization.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAuthorizationContent.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFAvgPriceDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBillContentArchive.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBillContentPrint.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBillTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBrand.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBusiness.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBusinessBillTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFBuyContractTradeRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCardCodeInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCargoInseparabilityConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCarry.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCodeCustomization.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCodeTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCodeTemplateDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCommercialInvoice.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCommodity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCommodityCategory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCommodityQuantityUnit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCommodityType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCommodityTypeQuantityUnit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCompany.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCompanyBankInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCompanyBankInfoCommodityAccountEntity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCompanyBusiness.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCompanySAPCode.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFComponentVariety.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCondition.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFConditionProperty.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContact.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContactCommodityAccountEntity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractBillArchive.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractBillArchiveDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractBillArchiveLinker.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractComment.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractComponent.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractCustomer.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractDetailInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractDetailQuantity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractEntryRecordDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractFee.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractFeeType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractInvoice.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractLog.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractOutRecordDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractPricingTerm.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractSecondPart.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFContractWhole.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCorporationApprovalWFTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCorporationDepartment.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCorporationTypeConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCostPayRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCostPayRequest.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCostPrice.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCreditRating.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCreditRatingDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCurrency.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCurrencyPair.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFCustomerCommodity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDefaultExchangeSetting.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDeliveryContract.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDeliveryInDetailQuantity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDeliveryNotification.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDeliveryNotificationDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDeliveryNotificationObject.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDepartmentAccountEntity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDeposit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFDepositContract.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFEntityProperty.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFEntityPropertyType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFEntitySapPart.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFExchangeBill.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFExchangeRate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFExportTradeRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFExportWarehouseStorage.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFeeEstimate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFeeRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFinalPrice.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFinancialBatch.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFinancialBatchInventory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFinancialBatchOutDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFirePriceConfirm.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFirePriceDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFirePricePostponeConfirm.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFirePriceRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFFutureTradeRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFGeneralModification.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFGeneralModificationDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFHedgeMatch.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInstrument.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInstrumentCategory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInstrumentSettlementPrice.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInventoryAdjustmentRequest.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInvoiceDetailQuantity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInvoiceObject.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInvoiceRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInvoiceRequest.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFInvoiceRequestDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFLcContract.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFLetterOfCredit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFLoginHistory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFLongContract.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFLongContractDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFMarketCalendar.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFMoneyConversion.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFMultiPrecursorBatch.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFOfficeAddress.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFOrderInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFOtherBill.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFOurPlantTransferWarehouseNotification.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFOurPlantTransferWarehouseNotificationDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFOutRecordAssistantMeasureInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPaymentProposal.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPaymentProposalDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPaymentProposalSubDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPayRequest.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPayRequestDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPayRequestSubDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPledgeContract.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPledgeInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPledgeRenewal.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPledgeRenewalDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPost.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPostingInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPostingInfoDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPriceConfirmationLetter.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPriceConfirmationLetterDetails.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPriceDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPriceInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPriceInstrument.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPriceQuantityScale.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFPricingConfirmDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFQuantityType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFReceivingClaim.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFRoleBusiness.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFRoleConditionConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFRoleInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFRolePrivilege.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSafetyLink.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSaleContractTradeRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSapAmountCategoryCommodity.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSapConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSapTransaction.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSapTransactionMultiObject.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSettlementRequest.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSettlementRequestDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSettleOption.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSettleOptionDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSettleOptionDetailExchangeProcess.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSettleOptionDetailPaymentForm.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSodEpAmountFirst.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSodEpConditionalRelease.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSodEpDocumentsAgainstAcceptance.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSodEpDocumentsAgainstPayment.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSodEpLetterOfCredit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSodPfExchangeBill.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSpecialFeeConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSpecification.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSpotReceiptConvertDetailInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSpotReceiptConvertInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFStepActionTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFStepConditionTemplate.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFStorageAssistantMeasureInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFStorageConversion.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFStorageConversionDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSubscribeConfig.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSubscribeConfigDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSupplementalAgreement.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSupplementalAgreementDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemCodeInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemCodeInfoConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemConfigDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemFee.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemFeeConfiguration.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemFinanceAccount.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFSystemLog.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTempData.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradeAccount.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradeInstruction.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradeInstructionDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradeInstructionRelation.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradePricing.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradePricingMatchDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFTradePricingMatchRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUnit.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUnitConversion.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUnPledgeInfo.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUser.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserBusiness.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserCorporation.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserLinker.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserMessage.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserPublishInformation.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserRequest.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserRole.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFUserTask.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseCalculateFeeType.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseCardCodePrefix.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseCompany.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseEntryRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseEntryRecordDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseOutOrder.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseOutRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseOutRecordDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseShiftingRecord.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseStorage.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseStorageHistory.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehouseStorageItem.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehousing.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWarehousingDetail.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WFWhStorageFlowTrack.cs">
+      <DependentUpon>OperationSystemModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OperationSystemModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>OperationSystemModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

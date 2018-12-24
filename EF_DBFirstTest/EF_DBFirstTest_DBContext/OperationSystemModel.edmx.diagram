@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e0b5aa62ce24d58b20bffb2f69aed72" Name="Diagram1">
+        <EntityTypeShape EntityType="OperationSystemModel.OnlineTime" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.OnlineTimeFlag" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SpotTradeProcessingFlag" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncContractDetail" Width="1.5" PointX="10.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SynchronizationErrorLog" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncSpotInventory" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncSpotMortgage" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncSpotTrade" Width="1.5" PointX="0.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncTradeContractInfo" Width="1.5" PointX="0.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncTradeDeliveryBatch" Width="1.5" PointX="32.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncTradePayment" Width="1.5" PointX="22.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SyncTradePriced" Width="1.5" PointX="24.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.sysdiagrams" Width="1.5" PointX="19.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAccountEntity" Width="1.5" PointX="3.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAccountingDataLog" Width="1.5" PointX="31.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAccountingDataLogDetail" Width="1.5" PointX="34" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAccountingFee" Width="1.5" PointX="32.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAccountingTask" Width="1.5" PointX="17.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFActualApprovalStep" Width="1.5" PointX="13" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFActualApprovalStepUser" Width="1.5" PointX="15.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFActualApprovalWF" Width="1.5" PointX="10.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFActualApprover" Width="1.5" PointX="10.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFActualStepCondition" Width="1.5" PointX="15.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFActuaStepAction" Width="1.5" PointX="18.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAdditionalConfiguration" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAggregateBill" Width="1.5" PointX="12.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAggregateBillDetail" Width="1.5" PointX="15" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAmountRecord" Width="1.5" PointX="20.25" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAmountRecordDetail" Width="1.5" PointX="22.5" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAmountRecordSubDetail" Width="1.5" PointX="24.75" PointY="106.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalAttachment" Width="1.5" PointX="13" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalCancellationForm" Width="1.5" PointX="26.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalConfiguration" Width="1.5" PointX="9" PointY="115.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalWorkflowLog" Width="1.5" PointX="15.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalWorkflowStepTemplate" Width="1.5" PointX="20" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalWorkflowTemplate" Width="1.5" PointX="6.75" PointY="111.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApprovalWorkflowTemplateRole" Width="1.5" PointX="23" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFApproverTemplate" Width="1.5" PointX="17.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAuthorization" Width="1.5" PointX="29.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAuthorizationContent" Width="1.5" PointX="32" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFAvgPriceDetail" Width="1.5" PointX="10.5" PointY="128" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBillContentArchive" Width="1.5" PointX="9" PointY="162.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBillContentPrint" Width="1.5" PointX="11.25" PointY="162.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBillTemplate" Width="1.5" PointX="6.75" PointY="119.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBrand" Width="1.5" PointX="6" PointY="123" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBusiness" Width="1.5" PointX="6" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBusinessBillTemplate" Width="1.5" PointX="9" PointY="111.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFBuyContractTradeRecord" Width="1.5" PointX="13.5" PointY="115" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCardCodeInfo" Width="1.5" PointX="28.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCargoInseparabilityConfiguration" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCarry" Width="1.5" PointX="2.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCodeCustomization" Width="1.5" PointX="24.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCodeTemplate" Width="1.5" PointX="19.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCodeTemplateDetail" Width="1.5" PointX="22" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCommercialInvoice" Width="1.5" PointX="22.5" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCommodity" Width="1.5" PointX="3.75" PointY="106.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCommodityCategory" Width="1.5" PointX="1.5" PointY="76.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCommodityQuantityUnit" Width="1.5" PointX="3" PointY="88.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCommodityType" Width="1.5" PointX="3.75" PointY="75.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCommodityTypeQuantityUnit" Width="1.5" PointX="6" PointY="89.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCompany" Width="1.5" PointX="3.75" PointY="94.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCompanyBankInfo" Width="1.5" PointX="6" PointY="78.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCompanyBankInfoCommodityAccountEntity" Width="1.5" PointX="8.25" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCompanyBusiness" Width="1.5" PointX="8.25" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCompanySAPCode" Width="1.5" PointX="6" PointY="99.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFComponentVariety" Width="1.5" PointX="0.75" PointY="84.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCondition" Width="1.5" PointX="6.75" PointY="115.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFConditionProperty" Width="1.5" PointX="34.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContact" Width="1.5" PointX="6" PointY="102.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContactCommodityAccountEntity" Width="1.5" PointX="8.25" PointY="70.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractBillArchive" Width="1.5" PointX="20.25" PointY="122.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractBillArchiveDetail" Width="1.5" PointX="22.5" PointY="123.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractBillArchiveLinker" Width="1.5" PointX="22.5" PointY="98.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractComment" Width="1.5" PointX="16.5" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractComponent" Width="1.5" PointX="16.5" PointY="97" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractCustomer" Width="1.5" PointX="16.5" PointY="100.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractDetailInfo" Width="1.5" PointX="11.25" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractDetailQuantity" Width="1.5" PointX="13.5" PointY="107.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractEntryRecordDetail" Width="1.5" PointX="16.5" PointY="88.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractFee" Width="1.5" PointX="25.5" PointY="92.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractFeeType" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractInfo" Width="1.5" PointX="14.25" PointY="86.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractInvoice" Width="1.5" PointX="19.5" PointY="92.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractLog" Width="1.5" PointX="16.5" PointY="112.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractOutRecordDetail" Width="1.5" PointX="19.5" PointY="86.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractPricingTerm" Width="1.5" PointX="8.25" PointY="91.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractSecondPart" Width="1.5" PointX="16.5" PointY="115.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFContractWhole" Width="1.5" PointX="12" PointY="74.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCorporationApprovalWFTemplate" Width="1.5" PointX="9" PointY="98.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCorporationDepartment" Width="1.5" PointX="6" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCorporationTypeConfiguration" Width="1.5" PointX="6" PointY="107.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCostPayRecord" Width="1.5" PointX="34" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCostPayRequest" Width="1.5" PointX="31.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCostPrice" Width="1.5" PointX="24" PointY="113.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCreditRating" Width="1.5" PointX="1.5" PointY="98.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCreditRatingDetail" Width="1.5" PointX="9" PointY="107.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCurrency" Width="1.5" PointX="3.75" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCurrencyPair" Width="1.5" PointX="18" PointY="74.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFCustomerCommodity" Width="1.5" PointX="9" PointY="103.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDefaultExchangeSetting" Width="1.5" PointX="20.25" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDeliveryContract" Width="1.5" PointX="12" PointY="100.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDeliveryInDetailQuantity" Width="1.5" PointX="15" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDeliveryNotification" Width="1.5" PointX="12.75" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDeliveryNotificationDetail" Width="1.5" PointX="15" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDeliveryNotificationObject" Width="1.5" PointX="17.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDepartmentAccountEntity" Width="1.5" PointX="6" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDeposit" Width="1.5" PointX="8.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFDepositContract" Width="1.5" PointX="11" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFEntityProperty" Width="1.5" PointX="30" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFEntityPropertyType" Width="1.5" PointX="27.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFEntitySapPart" Width="1.5" PointX="10" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFExchangeBill" Width="1.5" PointX="18" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFExchangeRate" Width="1.5" PointX="20.25" PointY="74.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFExportTradeRecord" Width="1.5" PointX="4.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFExportWarehouseStorage" Width="1.5" PointX="20.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFeeEstimate" Width="1.5" PointX="10.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFeeRecord" Width="1.5" PointX="23.25" PointY="116.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFinalPrice" Width="1.5" PointX="10.5" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFinancialBatch" Width="1.5" PointX="19.5" PointY="78.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFinancialBatchInventory" Width="1.5" PointX="22.75" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFinancialBatchOutDetail" Width="1.5" PointX="21.75" PointY="82.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFirePriceConfirm" Width="1.5" PointX="10.5" PointY="136" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFirePriceDetail" Width="1.5" PointX="10.5" PointY="140.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFirePricePostponeConfirm" Width="1.5" PointX="10.5" PointY="144.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFirePriceRecord" Width="1.5" PointX="12.75" PointY="134.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFFutureTradeRecord" Width="1.5" PointX="8.25" PointY="82.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFGeneralModification" Width="1.5" PointX="27.75" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFGeneralModificationDetail" Width="1.5" PointX="30" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFHedgeMatch" Width="1.5" PointX="34.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInstrument" Width="1.5" PointX="11.25" PointY="83.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInstrumentCategory" Width="1.5" PointX="6" PointY="83" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInstrumentSettlementPrice" Width="1.5" PointX="13.5" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInventoryAdjustmentRequest" Width="1.5" PointX="34.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInvoiceDetailQuantity" Width="1.5" PointX="21.75" PointY="104.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInvoiceObject" Width="1.5" PointX="27.75" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInvoiceRecord" Width="1.5" PointX="30.75" PointY="84.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInvoiceRequest" Width="1.5" PointX="28.5" PointY="81.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFInvoiceRequestDetail" Width="1.5" PointX="19.5" PointY="100.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFLcContract" Width="1.5" PointX="22.5" PointY="101.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFLetterOfCredit" Width="1.5" PointX="15.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFLoginHistory" Width="1.5" PointX="34.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFLongContract" Width="1.5" PointX="12" PointY="103" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFLongContractDetail" Width="1.5" PointX="12" PointY="89.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFMarketCalendar" Width="1.5" PointX="30.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFMoneyConversion" Width="1.5" PointX="32.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFMultiPrecursorBatch" Width="1.5" PointX="21.75" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFOfficeAddress" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFOrderInfo" Width="1.5" PointX="16.5" PointY="120.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFOtherBill" Width="1.5" PointX="34.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFOurPlantTransferWarehouseNotification" Width="1.5" PointX="25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFOurPlantTransferWarehouseNotificationDetail" Width="1.5" PointX="27.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFOutRecordAssistantMeasureInfo" Width="1.5" PointX="19.5" PointY="56.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPaymentProposal" Width="1.5" PointX="23.25" PointY="65.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPaymentProposalDetail" Width="1.5" PointX="25.5" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPaymentProposalSubDetail" Width="1.5" PointX="27.75" PointY="87.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPayRequest" Width="1.5" PointX="21" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPayRequestDetail" Width="1.5" PointX="25.5" PointY="100.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPayRequestSubDetail" Width="1.5" PointX="27.75" PointY="101.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPledgeContract" Width="1.5" PointX="16.5" PointY="134.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPledgeInfo" Width="1.5" PointX="22.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPledgeRenewal" Width="1.5" PointX="18.75" PointY="134" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPledgeRenewalDetail" Width="1.5" PointX="21" PointY="134.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPost" Width="1.5" PointX="3.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPostingInfo" Width="1.5" PointX="22.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPostingInfoDetail" Width="1.5" PointX="25" PointY="50.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPriceConfirmationLetter" Width="1.5" PointX="16.5" PointY="138.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPriceConfirmationLetterDetails" Width="1.5" PointX="18.75" PointY="139" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPriceDetail" Width="1.5" PointX="8.25" PointY="134.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPriceInfo" Width="1.5" PointX="6" PointY="93.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPriceInstrument" Width="1.5" PointX="13.5" PointY="111.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPriceQuantityScale" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFPricingConfirmDetail" Width="1.5" PointX="17.25" PointY="128" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFQuantityType" Width="1.5" PointX="1.5" PointY="108.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFReceivingClaim" Width="1.5" PointX="18" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFRoleBusiness" Width="1.5" PointX="8.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFRoleConditionConfiguration" Width="1.5" PointX="20" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFRoleInfo" Width="1.5" PointX="6" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFRolePrivilege" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSafetyLink" Width="1.5" PointX="36.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSaleContractTradeRecord" Width="1.5" PointX="21.75" PointY="110" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSapAmountCategoryCommodity" Width="1.5" PointX="30" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSapConfiguration" Width="1.5" PointX="27.75" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSapTransaction" Width="1.5" PointX="7.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSapTransactionMultiObject" Width="1.5" PointX="10" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSettlementRequest" Width="1.5" PointX="14.25" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSettlementRequestDetail" Width="1.5" PointX="16.5" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSettleOption" Width="1.5" PointX="12" PointY="120.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSettleOptionDetail" Width="1.5" PointX="14.25" PointY="157" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSettleOptionDetailExchangeProcess" Width="1.5" PointX="16.5" PointY="155.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSettleOptionDetailPaymentForm" Width="1.5" PointX="16.5" PointY="163.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSodEpAmountFirst" Width="1.5" PointX="18.75" PointY="150.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSodEpConditionalRelease" Width="1.5" PointX="18.75" PointY="152.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSodEpDocumentsAgainstAcceptance" Width="1.5" PointX="18.75" PointY="155.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSodEpDocumentsAgainstPayment" Width="1.5" PointX="18.75" PointY="158.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSodEpLetterOfCredit" Width="1.5" PointX="18.75" PointY="160.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSodPfExchangeBill" Width="1.5" PointX="18.75" PointY="163.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSpecialFeeConfiguration" Width="1.5" PointX="10.5" PointY="149.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSpecification" Width="1.5" PointX="6" PointY="126.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSpotReceiptConvertDetailInfo" Width="1.5" PointX="17.25" PointY="67.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSpotReceiptConvertInfo" Width="1.5" PointX="15" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFStepActionTemplate" Width="1.5" PointX="23.25" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFStepConditionTemplate" Width="1.5" PointX="24.25" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFStorageAssistantMeasureInfo" Width="1.5" PointX="17.25" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFStorageConversion" Width="1.5" PointX="22.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFStorageConversionDetail" Width="1.5" PointX="25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSubscribeConfig" Width="1.5" PointX="8.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSubscribeConfigDetail" Width="1.5" PointX="11" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSupplementalAgreement" Width="1.5" PointX="16.5" PointY="146.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSupplementalAgreementDetail" Width="1.5" PointX="18.75" PointY="147" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemCodeInfo" Width="1.5" PointX="22" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemCodeInfoConfiguration" Width="1.5" PointX="24.25" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemConfigDetail" Width="1.5" PointX="29" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemConfiguration" Width="1.5" PointX="26.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemFee" Width="1.5" PointX="21" PointY="118.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemFeeConfiguration" Width="1.5" PointX="8.25" PointY="149.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemFinanceAccount" Width="1.5" PointX="18.75" PointY="118.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFSystemLog" Width="1.5" PointX="36.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTempData" Width="1.5" PointX="10.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradeAccount" Width="1.5" PointX="36.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradeInstruction" Width="1.5" PointX="17.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradeInstructionDetail" Width="1.5" PointX="20" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradeInstructionRelation" Width="1.5" PointX="20" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradePricing" Width="1.5" PointX="15" PointY="125.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradePricingMatchDetail" Width="1.5" PointX="29" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFTradePricingMatchRecord" Width="1.5" PointX="26.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUnit" Width="1.5" PointX="0.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUnitConversion" Width="1.5" PointX="36.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUnPledgeInfo" Width="1.5" PointX="25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUser" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserBusiness" Width="1.5" PointX="8.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserCorporation" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserLinker" Width="1.5" PointX="12.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserMessage" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserPublishInformation" Width="1.5" PointX="36.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserRequest" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserRole" Width="1.5" PointX="8.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFUserTask" Width="1.5" PointX="5.25" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseCalculateFeeType" Width="1.5" PointX="8.25" PointY="153.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseCardCodePrefix" Width="1.5" PointX="8.25" PointY="156.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseCompany" Width="1.5" PointX="6" PointY="152.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseDetail" Width="1.5" PointX="8.25" PointY="159.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseEntryRecord" Width="1.5" PointX="10.5" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseEntryRecordDetail" Width="1.5" PointX="12.75" PointY="66.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseOutOrder" Width="1.5" PointX="17.25" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseOutRecord" Width="1.5" PointX="15" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseOutRecordDetail" Width="1.5" PointX="17.25" PointY="60.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseShiftingRecord" Width="1.5" PointX="22.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseStorage" Width="1.5" PointX="15" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseStorageHistory" Width="1.5" PointX="6" PointY="130" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehouseStorageItem" Width="1.5" PointX="17.25" PointY="77.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehousing" Width="1.5" PointX="24.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWarehousingDetail" Width="1.5" PointX="27" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.WFWhStorageFlowTrack" Width="1.5" PointX="25.5" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.SpotMortgageProcessingFlag" Width="1.5" PointX="33.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_Broker" Width="1.5" PointX="36.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_CargoUnit" Width="1.5" PointX="36.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_CargoUnitConversion" Width="1.5" PointX="36.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_CommodityCategory" Width="1.5" PointX="36.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_CommodityType" Width="1.5" PointX="36.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_CommodityTypeQuantityUnit" Width="1.5" PointX="28.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_Corporation" Width="1.5" PointX="38.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_Currency" Width="1.5" PointX="38.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_Exchange" Width="1.5" PointX="38.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_ExchangeType" Width="1.5" PointX="8.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_Instrument" Width="1.5" PointX="10.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_InstrumentCategory" Width="1.5" PointX="38.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_InstrumentContractFormat" Width="1.5" PointX="38.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_MarketCalendar" Width="1.5" PointX="38.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_ProfitCenter" Width="1.5" PointX="38.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_TimeZone" Width="1.5" PointX="25.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_TradeAccount" Width="1.5" PointX="38.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_TradeAccountType" Width="1.5" PointX="38.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Fe_User" Width="1.5" PointX="38.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Lm_Instrument" Width="1.5" PointX="2.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Lm_MarketCalendar" Width="1.5" PointX="4.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Lm_TradeAccount" Width="1.5" PointX="34.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.View_Accounting_Lm_User" Width="1.5" PointX="40.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.ViewExchangeRate" Width="1.5" PointX="40.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.ViewUnitConversion" Width="1.5" PointX="40.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.ViewUnitConversionUnconfigured" Width="1.5" PointX="40.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.ViewWFPledgeInfo" Width="1.5" PointX="40.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OperationSystemModel.ViewWFUnPledgeInfo" Width="1.5" PointX="40.75" PointY="23.75" IsExpanded="true" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMMODITYACCOUNTENTITY_REFERENCE_150_WFACCOUNTENTITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCORPORATIONDEPARTMENT_REFERENCE_170_WFACCOUNTENTITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDEPARTMENTACCOUNTENTITY_REFERENCE_152_WFACCOUNTENTITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDEPARTMENTACCOUNTENTITY_REFERENCE_153_WFACCOUNTENTITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACCOUNTINGDATALOGDETAIL_REFERENCE_87_WFACCOUNTINGDATALOG" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUALAPPROVALSTEP_REFERENCE_127_WFACTUALAPPROVALWF" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUALAPPROVALSTEP_REFERENCE_141_WFACTUALAPPROVER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUALAPPROVALSTEPUSER_REFERENCE_134_WFACTUALAPPROVALSTEP" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUALSTEPCONDITION_REFERENCE_128_WFACTUALAPPROVALSTEP" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUALSTEPCONDITION_REFERENCE_129_WFACTUALAPPROVALSTEP" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUASTEPACTION_REFERENCE_139_WFACTUALAPPROVALSTEP" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAPPROVALWORKFLOWLOG_REFERENCE_130_WFACTUALAPPROVALSTEP" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAPPROVALATTACHMENT_REFERENCE_126_WFACTUALAPPROVALWF" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFACTUASTEPACTION_REFERENCE_140_WFACTUALAPPROVER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAggregateBillDetail_REFERENCE_WFAggregateBill" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAMOUNT_REFERENCE_WFRECEIVINGCLAIM" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAmountRecord_REFERENCE_WFExchangeBill" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAmountRecord_REFERENCE_WFPaymentProposal" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFAmountRecord_WFAmountRecordDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFPayRequest_WFAmountRecord_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAmountRecordSubDetail_REFERENCE_WFAmountRecordDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFAmountRecordDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFApprovalConfiguration_REFERENCE_WFCondition" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAPPROVALWORKFLOWSTEPTEMPLA_REFERENCE_121_WFAPPROVALWORKFLOWTEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAPPROVALWORKFLOWSTEPTEMPLA_REFERENCE_138_WFAPPROVERTEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSTEPACTIONTEMPLATE_REFERENCE_133_WFAPPROVALWORKFLOWSTEPTEMPLA" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSTEPCONDITIONTEMPLATE_REFERENCE_117_WFAPPROVALWORKFLOWSTEPTEMPLA" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSTEPCONDITIONTEMPLATE_REFERENCE_118_WFAPPROVALWORKFLOWSTEPTEMPLA" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAPPROVALUSER_REFERENCE_151_WFAPPROVALWORKFLOWTEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCORPORATIONAPPROVALWFTEMPL_REFERENCE_131_WFAPPROVALWORKFLOWTEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAPPROVALUSER_REFERENCE_135_WFAPPROVERTEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFRoleConditionConfiguration_REFERENCE_WFApproverTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSTEPACTIONTEMPLATE_REFERENCE_137_WFAPPROVERTEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAUTHORIZATIONCONTENT_REFERENCE_154_WFAUTHORIZATION" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFAVGPRI_REFERENCE_WFPRICED" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBILLCO_REFERENCE_WFBILLTE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBillContentPrint_REFERENCE_WFBillContentArchive" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBusinessBillTemplate_REFERENCE_WFBillTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFCommodity_WFBrand_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBUSINE_REFERENCE_WFCOMPAN" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCBCD_WFCommodityAccountEn" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMMODITYACCOUNTENTITY_REFERENCE_149_WFCOMMODITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMPAN_REFERENCE_WFBUSINE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTAC_REFERENCE_WFCOMMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFRoleBusiness_REFERENCE_WFBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERBU_REFERENCE_WFBUSINE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBusinessBillTemplate_REFERENCE_WFCondition" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBUYCONTRACTTRADERECORD_REFERENCE_58_WFCONTRACTENTRYRECORDDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBUYCONTRACTTRADERECORD_REFERENCE_68_WFCONTRACTDETAILINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFBuyContractTradeRecord_REFERENCE_WFFinalPrice" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOSTPRICE_REFERENCE_57_WFBUYCONTRACTTRADERECORD" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCodeCustomization_REFERENCE_WFCodeTemplateDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCodeTemplateDetail_REFERENCE_WFCodeTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSystemCodeInfo_REFERENCE_WFCodeTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommercialInvoice_REFERENCE_WFContractInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommercialInvoice_REFERENCE_WFExchangeRate" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommercialInvoice_REFERENCE_WFInvoiceRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInvoiceRecord_REFERENCE_WFCommercialInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.K_WFCommercialInvoice_REFERENCE_WFCommercialInvoice_Final" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMMODITY_REFERENCE_66_WFCOMMODITYTYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodity_REFERENCE_WFQuantityType" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityQuantityUnit_REFERENCE_WFCommodity" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFComponentVariety_REFERENCE_WFCommodity" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCREDIT_REFERENCE_WFCOMMOD" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCUSTOMERCOMMODITY_REFERENCE_104_WFCOMMODITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPriceInfo_REFERENCE_WFCommodity" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWarehouseStorageHistory_REFERENCE_WFCOMMODITY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFCommodity_WFSpecification_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityType_REFERENCE_WFCommodityCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityQuantityUnit_REFERENCE_WFComponentVariety" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityQuantityUnit_REFERENCE_WFQuantityType" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityQuantityUnit_REFERENCE_WFUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityTypeQuantityUnit_REFERENCE_WFCommodityType" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFINSTRUMENT_REFERENCE_79_WFCOMMODITYTYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrumentCategory_REFERENCE_WFCommodityType" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityTypeQuantityUnit_REFERENCE_WFQuantityType" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCommodityTypeQuantityUnit_REFERENCE_WFUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCB_REFERENCE_WFCOMPAN" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMPAN_REFERENCE_WFCOMPAN" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMPANY_REFERENCE_159_WFCREDITRATING" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOMPANY_REFERENCE_166_WFCREDITRATING" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCompanySAPCode_REFERENCE_WFCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTAC_REFERENCE_WFCOMPAN" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCORPORATIONAPPROVALWFTEMPL_REFERENCE_122_WFCOMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCorporationTypeConfiguration_REFERENCE_WFCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCUSTOMERCOMMODITY_REFERENCE_103_WFCOMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrument_REFERENCE_WFCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrumentCategory_REFERENCE_WFCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWAREHO_REFERENCE_WFCOMPAN" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFCompany_WFCompanyBankInfo_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCBCD_WFCompanyBankInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCorporationApprovalWFTemplate_REFERENCE_WFCondition" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFStepConditionTemplate_REFERENCE_WFCondition" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTAC_REFERENCE_WFCONTAC" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTBILLARCHIVEDETAIL_REFERENCE_84_WFCONTRACTBILLARCHIVE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTBILLARCHIVELINKER_REFERENCE_105_WFCONTRACTBILLARCHIVE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTBILLARCHIVELINKER_REFERENCE_106_WFCONTRACTINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFContractComment_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFContractComponent_REFERENCE_WFContractInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFContractCustomer_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFContractDetailQuantity_REFERENCE_WFContractDetailInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTENTRYRECORDDETAIL_REFERENCE_70_WFCONTRACTDETAILINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTOUTRECORDDETAIL_REFERENCE_71_WFCONTRACTDETAILINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRD_REFERENCE_WFPRICEI" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFContractDetailInfo_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFContractInvoice_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFInvoiceRequestDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTENTRYRECORDDETAIL_FK_WFCONTRACTENTRYR_WFWAREHOUSEENTRYRECORDDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRA_REFERENCE_WFCONTRA" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRA_REFERENCE_WFFEEREC" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRA_REFERENCE_WFSYSTEM" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRA_REFERENCE_WFCONTRACTWHOLE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRA_REFERENCE_WFPRICEI" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACT2NDPART_WFCONTRAC" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTINFO_REFERENCE_78_WFLONGCONTRACT" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTINFO_REFERENCE_80_WFDELIVERYCONTRACT" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTINFO_REFERENCE_86_WFLONGCONTRACTDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFContractInfo_REFERENCE_WFSettleOption" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTLOG_REFERENCE_74_WFCONTRACTINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFLCCONT_REFERENCE_WFCONTRA" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPaymentProposalDetail_REFERENCE_WFContractInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPLEDGECONTRACT_REFERENCE_198_WFCONTRACTINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPRICECONFIRMATIONLETTER_REFERENCE_64_WFCONTRACTINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSupplementalAgreement_REFERENCE_WFContractInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFOrderInfo_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFPayRequestDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFContractInfo_WFSettlementRequestDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInvoiceDetailQuantity_REFERENCE_WFContractInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInvoiceObject_REFERENCE_WFContractInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFInvoiceRecord_WFContractInvoice_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCONTRACTOUTRECORDDETAIL_REFERENCE_72_WFWAREHOUSEOUTRECORDDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinancialBatchOutDetail_REFERENCE_WFContractOutRecordDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSALECONTRACTTRADERECORD_REFERENCE_61_WFCONTRACTOUTRECORDDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFContractPricingTerm_REFERENCE_WFPriceInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOSTPAYRECORD_REFERENCE_107_WFCOSTPAYREQUEST" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCOSTPRICE_REFERENCE_62_WFSALECONTRACTTRADERECORD" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCREDIT_REFERENCE_WFCREDIT" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCUSTOMERCOMMODITY_REFERENCE_158_WFCREDITRATING" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFCUSTOMERCOMMODITY_REFERENCE_167_WFCREDITRATING" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrumentCategory_REFERENCE_WFCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPriceInfo_REFERENCE_WFCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDefaultExchangeSetting_REFERENCE_WFCurrencyPair" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFExchangeRate_REFERENCE_WFCurrencyPair" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDeliveryInDetailQuantity_REFERENCE_WFWarehouseEntryRecordDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDeliveryNotificationDetail_REFERENCE_WFDeliveryNotification" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWarehouseEntryRecord_REFERENCE_WFDeliveryNotification" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWarehouseOutRecord_REFERENCE_WFDeliveryNotification" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDeliveryNotificationObject_REFERENCE_WFDeliveryNotificationDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFDepositContract_REFERENCE_WFDeposit" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFEntityProperty_REFERENCE_WFEntityPropertyType" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFEntitySapPart_REFERENCE_WFSapTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFExchangeBill_REFERENCE_WFLetterOfCredit" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFEERECORD_REFERENCE_115_WFSYSTEMFEE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinalPrice_REFERENCE_WFPriceDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSaleContractTradeRecord_REFERENCE_WFFinalPrice" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinancialBatch_REFERENCE_WFFinancialBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinancialBatchInventory_REFERENCE_WFFinancialBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinancialBatchOutDetail_REFERENCE_WFFinancialBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFMultiPrecursorBatch_PrecursorBatchId_REFERENCE_WFFinancialBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFMultiPrecursorBatch_SuccessorBatchId_REFERENCE_WFFinancialBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPostingInfoDetail_REFERENCE_WFFinancialBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinancialBatchInventory_REFERENCE_WFWarehouseStorage" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFinancialBatchOutDetail_REFERENCE_WFWarehouseOutRecordDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFPC_REFERENCE_WFPRICED" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFFirePriceConfirm_WFFirePriceRecord_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFIREPR_REFERENCE_WFPRICED" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFPPC_REFERENCE_WFPRICED" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFPR_REFERENCE_WFPRICED" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFTradePricing_REFERENCE_WFFirePriceRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFFutureTradeRecord_REFERENCE_WFInstrumentCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFGENERA_REFERENCE_WFGENERA" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrument_REFERENCE_WFInstrumentCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrumentSettlementPrice_REFERENCE_WFInstrument" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPRICEI_REFERENCE_WFINSTRU" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInstrumentCategory_REFERENCE_WFUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInvoiceObject_REFERENCE_WFInvoiceRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFInvoiceRecord_REFERENCE_WFInvoiceRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFInvoiceRequest_WFInvoiceRecord_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFInvoiceRequest_WFInvoiceRequestDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFLCCONT_REFERENCE_WFLETTER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFLONGCONTRACTDETAIL_REFERENCE_83_WFLONGCONTRACT" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSER_REFERENCE_208_WFOFFICEADDRESS" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFOurPlantTransferWarehouseNotification_REFERENCE_WFStorageConversion" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFOurPlantTransferWarehouseNotificationDetail_REFERENCE_WFOurPlantTransferWarehouseNotification" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFOUTRECORDASSISTANTMEASUREI_REFERENCE_207_WFWAREHOUSEOUTRECORDDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPaymentProposal_REFERENCE_WFPayRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPaymentProposalDetail_REFERENCE_WFPaymentProposal" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPaymentProposalSubDetail_REFERENCE_WFPaymentProposalDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPAYREQUEST_REFERENCE_99_WFSETTLEMENTREQUEST" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFPayRequest_WFPayRequestDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPayRequestSubDetail_REFERENCE_WFPayRequestDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPledgeRenewal_REFERENCE_WFPledgeContract" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFPledgeInfo_WFUnPledgeInfo_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPledgeRenewalDetail_REFERENCE_WFPledgeRenewal" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFROLEINFO_REFERENCE_136_WFPOST" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPostingInfoDetail_REFERENCE_WFPostingInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPRICECONFIRMATIONLETTERDET_REFERENCE_63_WFPRICECONFIRMATIONLETTER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPI_REFERENCE_WFPRICED" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPRICED_REFERENCE_WFPRICEI" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPriceInfo_REFERENCE_WFUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFPricingConfirmDetail_REFERENCE_WFTradePricing" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFRoleBusiness_REFERENCE_WFRoleInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFRolePrivilege_REFERENCE_WFRoleInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERROLE_REFERENCE_94_WFROLEINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSapAmountCategoryCommodity_REFERENCE_WFSapConfiguration" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSapTransactionMultiObject_REFERENCE_WFSapTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFSettlementRequest_WFSettlementRequestDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSettleOptionDetail_REFERENCE_WFSettleOption" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodEp_REFERENCE_Sod" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodPf_REFERENCE_Sod" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodEpCr_REFERENCE_SodEp" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodEpDa_REFERENCE_SodEp" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodEpDp_REFERENCE_SodEp" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodEpLc_REFERENCE_SodEp" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSodEpAmountFirst_REFERENCE_WFSettleOptionDetailExchangeProcess" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_SodPfBill_REFERENCE_SodPf" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSPECIALFEECONFIGURATION_REFERENCE_112_WFSYSTEMFEECONFIGURATION" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSPOTRECEIPTCONVERTDETAILIN_REFERENCE_101_WFSPOTRECEIPTCONVERTINFO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSPOTRECEIPTCONVERTDETAILIN_REFERENCE_102_WFWAREHOUSESTORAGE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSTORAGEASSISTANTMEASUREINF_REFERENCE_206_WFWAREHOUSESTORAGE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFStorageConversionDetail_REFERENCE_WFStorageConversion" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSubscribeConfigDetail_REFERENCE_WFSubscribeConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSupplementalAgreementDetail_REFERENCE_WFSupplementalAgreement" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSYSTEM_REFERENCE_WFSYSTEM" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFSystemConfiguration_WFSystemConfigDetail_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSYSTEMFEE_REFERENCE_116_WFSYSTEMFINANCEACCOUNT" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFSystemFeeConfiguration_REFERENCE_WFWAREHO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFTradeInstructionDetail_REFERENCE_WFTradeInstruction" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFTradeInstructionRelation_REFERENCE_WFTradeInstruction" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFTradePricingMatchDetail_REFERENCE_WFTradePricingMatchRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERBU_REFERENCE_WFUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERCORPORATION_REFERENCE_173_WFUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERMESSAGE_REFERENCE_119_WFUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERREQUEST_REFERENCE_125_WFUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERROLE_REFERENCE_93_WFUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUSERTASK_REFERENCE_120_WFUSER" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFUserTask_REFERENCE_WFUser" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWarehouseCalculateFeeType_REFERENCE_WFWAREHO" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWAREHO_REFERENCE_WFWarehouseCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWarehouseDetail_REFERENCE_WFWarehouseCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFWarehouseEntryOrder_WFWarehouseEntryRecord_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_Storage_REFERENCE_EntryDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWAREHOUSEOUTORDER_REFERENCE_73_WFWAREHOUSEOUTRECORD" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWAREHOUSEOUTRECORDDETAIL_REFERENCE_69_WFWAREHOUSEOUTRECORD" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_OutDetail_REFERENCE_Storage" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWhStorageFlowTrack_REFERENCE_WFWarehouseOutRecordDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWAREHOUSESTORAGEITEM_REFERENCE_65_WFWAREHOUSESTORAGE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWHSTORAGEFLOWTRACK_REFERENCE_100_WFWAREHOUSESTORAGE" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.WFWarehouseStorage_WFWhStorageFlowTrack_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="OperationSystemModel.FK_WFWarehousingDetail_REFERENCE_WFWarehousing" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
